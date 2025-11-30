@@ -1,0 +1,86 @@
+/* Basic reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f7f7f7;
+}
+
+/* Header */
+header{
+    background: #ff4d4d;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+}
+
+/* Hero Section */
+.hero{
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffe6e6;
+}
+
+.hero h2{
+    font-size: 28px;
+}
+
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Food Section */
+.food-section{
+    padding: 30px;
+}
+
+.food-section h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Food Cards Container */
+.food-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Food Card */
+.food-card{
+    background: white;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.food-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.food-card button{
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
